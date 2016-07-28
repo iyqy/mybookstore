@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<decorators defaultdir="/WEB-INF/decorators">
+   	<decorator name="manager" page="manager.jsp">
+        <pattern>/manager/*</pattern>
+    </decorator>
+   	<decorator name="client" page="client.jsp">
+        <pattern>/client/*</pattern>
+    </decorator>
+
+</decorators>
